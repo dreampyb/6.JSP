@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+.loginFormArea{
+	text-align:center;
+	width: 250px;
+	margin: auto;
+	border: 1px solid green;
+	}
+h1 { text-align:center;}
+h1,#commandcell{text-align:bottom;}
+</style>
+</head>
+<body><h1>Request 예제입니다.</h1>
+	<section class="loginFormArea" style="width: 600px; height: 250px">
+		<form action="requestTest1.jsp" method="get"> 
+		<!-- action에는 반드시 뒤에 서버명도 함께 기재 --><br>
+		1. 이름 입력 :  <input type="text" name="name" style="width: 150px; "> <br>
+		2. 성별 입력 : &nbsp;&nbsp;&nbsp;남자 <input type="radio" name="gender" value="male">
+		&nbsp;&nbsp;&nbsp;
+			  여자<input type="radio" name="gender" value="female"> <br><br>
+			
+		3. 취미: 독서<input type="checkbox" name="hobby" value="READING">
+		           등산<input type="checkbox" name="hobby" value="TREKKING">
+		           캠핑<input type="checkbox" name="hobby" value="CAMPING">
+		           여행<input type="checkbox" name="hobby" value="TRIP"><br>&nbsp;
+		     &nbsp;&nbsp;&nbsp;&nbsp;영화감상<input type="checkbox" name="hobby" value="MOVIE">
+		     MTB <input type="checkbox" name="hobby" value="MTB">
+		           기타<input type="checkbox" name="hobby" value="etc"><br><br>
+		           
+		4.숫자 입력 : <input type="number" name="no" ><br><br>
+		           예 : 1.한식<input type="checkbox" name="hood" >
+			  	 2.중식<input type="checkbox" name="hood" >
+			  	 3.양식<input type="checkbox" name="hood">
+			 	 4.일식<input type="checkbox" name="hood" >
+			  	 5.뷔폐<input type="checkbox" name="hood"><br><br>
+		<input type="submit"  value="입 력" style="width: 100px; height:30px">
+		 <br>		 
+		</form>
+	</section><br><br><br>
+
+</body>
+</html>

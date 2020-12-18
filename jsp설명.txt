@@ -1,0 +1,2 @@
+Servlet : Java안의 html
+JSP는 html안의 java
